@@ -44,6 +44,7 @@
 		FC0C8A42273A77E600234D47 /* capturesingleentryswiftui-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "capturesingleentryswiftui-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0C8A46273A77E600234D47 /* capturesingleentryswiftui_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capturesingleentryswiftui_iosUITests.swift; sourceTree = "<group>"; };
 		FC0C8A48273A77E600234D47 /* capturesingleentryswiftui_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capturesingleentryswiftui_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCC19078274BB0CC00511ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		FC0C8A2A273A77E300234D47 /* capturesingleentryswiftui-ios */ = {
 			isa = PBXGroup;
 			children = (
+				FCC19078274BB0CC00511ED0 /* Info.plist */,
 				FC0C8A2B273A77E300234D47 /* capturesingleentryswiftui_iosApp.swift */,
 				FC0C8A2D273A77E300234D47 /* ContentView.swift */,
 				FC0C8A2F273A77E600234D47 /* Assets.xcassets */,
@@ -421,6 +423,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"capturesingleentryswiftui-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "capturesingleentryswiftui-ios/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "${PRODUCT_NAME} would like access to Bluetooth to connect to barcode and RFID readers";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "${PRODUCT_NAME} would like access to Bluetooth to connect to barcode and RFID readers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +454,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"capturesingleentryswiftui-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "capturesingleentryswiftui-ios/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "${PRODUCT_NAME} would like access to Bluetooth to connect to barcode and RFID readers";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "${PRODUCT_NAME} would like access to Bluetooth to connect to barcode and RFID readers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
